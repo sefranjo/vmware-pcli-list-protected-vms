@@ -1,6 +1,6 @@
 # List VMs protected By SRM and their Protecction Groups
 
-This simple scripts are to list all vms protected by SRM. It has only one `parameter` and is the vcenter server.
+This simple scripts are for list all vms protected by SRM. It has only one `parameter` and is the vcenter server.
 There are two files, one to list them (`List-SRM-protected-Vms.ps1`) and another to generate a csv (`CSV-SRM-protected-Vms.ps1`)
 
 ### Example of usage:
