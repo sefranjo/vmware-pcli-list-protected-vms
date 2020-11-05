@@ -21,7 +21,7 @@ vm-webserver1                       GROUP-APPS               10.0.1.25
 ```
 
 ### Note:
-If you have problems with SRM power-cli commands try uninstall your current version (v12 has issues with srm commands) and install (v11 works fine):
+If you have problems with SRM power-cli commands try uninstall your current version (v12 has issues with srm commands) and install v11 (works fine):
 
 Uninstall:
 ```
