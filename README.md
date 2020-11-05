@@ -20,3 +20,15 @@ vm-DFS1                             GROUP-Services           10.0.0.8
 vm-webserver1                       GROUP-APPS               10.0.1.25
 ```
 
+### Note:
+If you have problems with SRM power-cli commands try uninstall your current version (v12 has issues with srm commands) and install (v11 works fine):
+
+Uninstall:
+```
+Get-Module VMware.* -ListAvailable | Uninstall-Module
+```
+
+Install v11:
+```
+Install-Module -Name VMware.PowerCLI -RequiredVersion 11.0.0.10380590
+```
