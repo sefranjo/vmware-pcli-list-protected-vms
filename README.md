@@ -1,0 +1,1 @@
+# vmware-pcli-list-protected-vms
